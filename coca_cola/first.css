@@ -1,0 +1,177 @@
+body {
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.main-header {
+    color: aliceblue;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    z-index: 544;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+.headlogo {
+    width: 200px;
+    margin-left: 100px;
+}
+
+.up-section {
+    background-color: rgb(255, 255, 255);
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+.up-section__left__side {
+    width: 30%;
+    background-color: rgb(255, 255, 255);
+    float: left;
+    margin-top: 25px;
+    top: 0;
+    display: flex;
+    flex-flow: column;
+    top 0px;
+}
+
+.up-section__left__side__items {
+  
+    text-align: center;
+    position: sticky;
+    top: 120px;
+    font-family:'Times New Roman', Times, serif; 
+}
+.up-section__left__side__item1 {
+    list-style-type: none;
+    padding-left: 0px;
+    text-align: left; 
+}
+
+.up-section__left__side__item2 {
+    font-weight: 100;
+    margin-top: 60px;
+}
+
+.up-section__right__side {
+    display:flex;
+    width: 70%;
+    background-color: rgb(236, 236, 236);
+    justify-content:flex-end;
+    align-items:flex-start;
+    flex-wrap: wrap;
+}
+
+.up-section__right__side__logo {
+    width: 100%;
+    position: sticky;
+    top: -30px;
+    box-shadow: 0px 10px 20px rgb(0, 0, 0);
+}
+
+.up-section__right__side__logo2 {
+    width: 100%;
+    z-index: 2;
+}
+
+
+
+
+.central-section__header {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin-top: 60px;
+    margin-bottom: 0px;
+    
+}
+
+.central-section__title {
+    text-align: center;
+   
+}
+
+.central-section__logobig__container {
+    display: flex;
+    flex-direction: column;
+    padding: 100px; 
+    margin-top: -60px;
+    position: sticky;
+    
+}
+
+.logobig {
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    position: sticky;
+    top: -500px;
+}
+
+.soda {
+    display: block;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.logobig2 {
+    box-shadow: 0px 0px 50px rgb(0, 0, 0);
+    margin-top: 20px;
+    position: sticky;
+    top 0px
+}
+
+.bottom-section {
+    width: 100%;
+}
+
+.bottom-section__header {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: black;
+    position: sticky;
+    top: 0px;
+    height: 70px;
+    z-index: 544;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.bottom-section__title {
+    font-weight: 100;
+    letter-spacing: 2px;
+}
+
+.bottom-section__main {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.bottom__main__img {
+    width: 100%;
+    position: sticky;
+    top: 0px;
+}
+
+.bottom__upside__img {
+    width: 20%;
+    position: sticky;
+    top: 0;
+    float: left;
+}
+.bottom__upside__img2 {
+    width: 20%;
+    position: sticky;
+    top: 0; 
+}
+
+.spacer__for__bottom__img {
+    display: flex;
+    justify-content: space-around;
+}
