@@ -1,5 +1,5 @@
-body {
-    background-color: #ffffff;
+body {height: 10000px;
+    background-color: rgb(255, 255, 255);
     
 }
 
@@ -174,4 +174,23 @@ body {
 .spacer__for__bottom__img {
     display: flex;
     justify-content: space-around;
+}
+
+.form {height: 800px;
+    background-color: rgb(255, 255, 255);
+    background-image: url(images/coke.png);
+    background-position: bottom left 50%;
+    text-align: center;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#send {
+    cursor: pointer;
+}
+
+#res {
+    cursor: pointer;
 }
