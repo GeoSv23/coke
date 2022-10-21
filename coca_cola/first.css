@@ -2,6 +2,7 @@
 
 body {height: 10000px;
     background-color: rgb(255, 255, 255);
+    font-size: 1;
     
 }
 
@@ -27,7 +28,7 @@ body {height: 10000px;
 .up-section {
     background-color: rgb(255, 255, 255);
     font-family:'Poiret One', cursive;
-    font-size: xx-large;
+    font-size: 180%;
     padding: 20px;
 }
 
@@ -53,11 +54,14 @@ body {height: 10000px;
     list-style-type: none;
     padding-left: 0px;
     text-align: left; 
+    text-transform: lowercase;
+    
 }
 
 .up-section__left__side__item2 {
     font-weight: 100;
     margin-top: 60px;
+    text-shadow: 3px 2px 7px black;
 }
 
 .up-section__right__side {
@@ -95,6 +99,7 @@ body {height: 10000px;
 .central-section__title {
     text-align: center;
     font-family: 'Poiret One', cursive;
+    text-shadow: 3px 2px 7px black;
    
 }
 
