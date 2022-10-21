@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poiret+One&family=Poppins:wght@100&display=swap');
+
 body {height: 10000px;
     background-color: rgb(255, 255, 255);
     
@@ -17,27 +19,6 @@ body {height: 10000px;
     
 }
 
-.container1 {
-    max-width: 1200px;
-    
-}
-@media (max-width:1200px) {
-    .container1{
-        max-width: 970px;
-    }     
-}
-@media (max-width:992px) {
-    .container1{
-        max-width: 750px;
-    }     
-}
-@media (max-width:768px) {
-    .container1{
-        max-width: none;
-    }     
-}
-
-
 .headlogo {
     width: 200px;
     margin-left: 100px;
@@ -45,7 +26,7 @@ body {height: 10000px;
 
 .up-section {
     background-color: rgb(255, 255, 255);
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-family:'Poiret One', cursive;
     font-size: xx-large;
     padding: 20px;
 }
@@ -113,6 +94,7 @@ body {height: 10000px;
 
 .central-section__title {
     text-align: center;
+    font-family: 'Poiret One', cursive;
    
 }
 
@@ -134,7 +116,7 @@ body {height: 10000px;
 .soda {
     display: block;
     text-align: center;
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Poiret One', cursive;
 }
 
 .logobig2 {
@@ -166,6 +148,8 @@ body {height: 10000px;
 .bottom-section__title {
     font-weight: 100;
     letter-spacing: 2px;
+    font-family: 'Poiret One', cursive;
+
 }
 
 .bottom-section__main {
@@ -206,6 +190,7 @@ body {height: 10000px;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Poiret One', cursive;
 }
 
 #send {
